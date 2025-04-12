@@ -1,0 +1,37 @@
+<link href="https://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="scoreTitle">HOME</h3>
+                
+                <div class="scoreContainer" id="homeScoreContainer">
+                    <h1 id="homeScore" class="scoreIndicator">0</h1>
+                </div>
+                
+                <button class="point-btn" onclick="incrementHomeScoreByOne()">+ 1</button>
+                <button class="point-btn" onclick="incrementHomeScoreByTwo()">+ 2</button>
+                <button class="point-btn" onclick="incrementHomeScoreByThree()">+ 3</button>
+            </div>
+            <div>
+                <h3 class="scoreTitle">GUEST</h3>
+                
+                <div class="scoreContainer" id="guestScoreContainer">
+                    <h1 id="guestScore" class="scoreIndicator">0</h1>
+                </div>
+                
+                <button class="point-btn" onclick="incrementGuestScoreByOne()">+ 1</button>
+                <button class="point-btn" onclick="incrementGuestScoreByTwo()">+ 2</button>
+                <button class="point-btn" onclick="incrementGuestScoreByThree()">+ 3</button>
+            </div>
+        </div>
+        <div class="newGameContainer">
+            <button class="newGameBtn" onclick="newGame()">NEW GAME</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    align-items: center;
+    gap: 4px;
+}
+
+.scoreTitle {
+    color: white;
+    text-align: center;
+    vertical-align:bottom;
+    align-content:flex-end;
+    margin-top: 20px;
+}
+
+.scoreContainer {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.scoreIndicator {
+    color: #F94F6D;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'DS-Digital', sans-serif;
+}
+
+.point-btn {
+    background-color: transparent;
+    border-color: #9AABD8;
+    color: #9AABD8;
+    font-family: 'DS-Digital', sans-serif;
+    margin: 3px;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 5px;
+    height: 30px;
+    border-width: 1px;
+}
+
+.newGameContainer{    
+    display: flex;
+}
+
+.newGameBtn {
+    align-items: center;
+    box-align: center;
+    text-align: center;
+    margin-top: 20px;
+    align-self: auto;
+    font-size: 30px;
+    justify-content: center;
+    color: black;
+    font-family: 'DS-Digital', sans-serif;
+    background-color: yellow;
+}
